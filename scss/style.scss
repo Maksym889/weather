@@ -4,4 +4,80 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(90deg, #b9deed, #efefef);
+}
 
+
+.header {  
+  background-color: rgba(184, 199, 217, 0.2);
+  box-shadow:  0px 15px 37px -9px rgba(184, 199, 217, 0.8);;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.logo__link {
+}
+.logo__img {
+  max-width: 200px;
+  max-height: 100px;
+}
+.search {
+}
+.search__form {
+  position: relative;
+}
+.search__city {
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  box-shadow:  0px 0px 59px -19px rgba(92,92,92,0.93);
+  outline: none;
+  padding-left: 10px;
+  transition-duration: 1s;
+  &:focus {
+    background: #F5F5F5;
+    border-width: 1.5px;
+    box-shadow: 0px 0px 19px 0px rgba(109,96,209,1); ;
+  }
+}
+.search__city
+
+.search__btn {
+  
+}
+
+.search-btn-loupe {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 11px;
+  right: 10px;
+ }
+
+.body {
+    background-image:url(/images/background/background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.body__list {
+}
+.body-list__information-card {
+}
+.body-list__information-card--active {
+}
+.body-list__information-list {
+}
